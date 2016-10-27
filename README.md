@@ -12,3 +12,5 @@ These functions recursively call each other to handle various relationships betw
 Next is the sweep phase. Three helper functions were created for this phase. They are
 *sweep_values(), sweep_lambdas(),* and *sweep_environments()*. These functions unmark objects if they are marked for the next
 garbage collection. If objects are unmarked, they are deleted.
+
+See *examples.scm* for instructions on testing the garbage collector.
